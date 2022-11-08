@@ -1,0 +1,68 @@
+{
+  "decks": [
+    {
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    },
+    {
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation.",
+      "id": 3
+    },
+    {
+      "name": "New Deck",
+      "description": "Deck",
+      "id": 4
+    },
+    {
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation",
+      "id": 5
+    },
+    {
+      "name": "React State Management - Updating Forms",
+      "description": "The information that your form stores is recorded at the top of the component. This makes it easy to know what your form is recording.  Instead of calling useState() multiple times in your component, you only need to call it once.  Instead of ending up with multiple state functions (such as setName() and setEmail()), you only have one.  Resetting the form to its initial state becomes trivial.",
+      "id": 6
+    },
+    {
+      "name": "test",
+      "description": "test",
+      "id": 7
+    },
+    {
+      "name": "test",
+      "description": "test",
+      "id": 8
+    },
+    {
+      "name": "test",
+      "description": "test",
+      "id": 9
+    },
+    {
+      "name": "testt",
+      "description": "testtt",
+      "id": 10
+    },
+    {
+      "name": "test",
+      "description": "testt",
+      "id": 11
+    }
+  ],
+  "cards": [
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    }
+  ]
+}
