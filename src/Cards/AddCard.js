@@ -20,7 +20,7 @@ function AddCard({card}) {
         setDeck(pullDeck);
       }
       catch (error) {
-        console.log("error reading deck list");
+        console.log("error reading card list");
       }
     }
     loadDeck();
