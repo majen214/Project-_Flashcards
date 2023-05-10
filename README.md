@@ -127,6 +127,8 @@ You are tasked with creating the following screens that work with the above data
 Home
 The Home screen is the first page the user sees. It is displayed at /.
 
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/84a82908-ff5f-4bc0-86bd-aad5e8dd5c24)
+
 Home screen
 
 The Home screen has the following features:
@@ -143,11 +145,13 @@ When the user clicks the Delete button, a warning message is shown and the user 
 You can use window.confirm() to create the modal dialog shown in the screenshot below.
 
 Delete Deck prompt
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/404e9314-636e-4078-8df0-672aa931f2fb)
 
 Study
 The Study screen is displayed at /decks/:deckId/study.
 
 Study first card
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/7fe9fcc8-3ff7-46f4-9561-305d710cd113)
 
 The Study screen has the following features:
 
@@ -164,6 +168,8 @@ Studying a deck with two or fewer cards should display a "Not enough cards" mess
 Next button
 The Next button appears after the card is flipped.
 
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/8ec58e5c-bc51-4e57-8a8e-4a1313df4ed6)
+
 Study after first card is flipped
 
 Restart prompt
@@ -172,11 +178,13 @@ When all cards are finished, a message is shown and the user is offered the oppo
 You can use window.confirm() to create the modal dialog shown in the screenshot below.
 
 Study restart prompt
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/6d68e6e2-4fed-41f4-b4b1-bcfdf41d8308)
 
 Not enough cards
 Studying a Deck with two or fewer cards should display a "Not enough cards" message and a button to add cards to the deck.
 
 Study with not enough cards
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/2f2746ed-9204-4282-8c30-92413dd0ffea)
 
 Clicking the Add Cards button should take the user to the Add Card screen.
 
@@ -184,6 +192,7 @@ Create Deck
 The Home screen has a Create Deck button that brings the user to the Create Deck screen.
 
 Create Deck
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/e1c3922a-4292-4ccd-ba53-10f0a11a16f9)
 
 The Create Deck screen has the following features:
 
@@ -200,6 +209,7 @@ The Deck screen displays all of the information about a deck.
 Deck
 
 The Deck screen has the following features:
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/b9bd2840-f541-4932-94b9-f04101b48ade)
 
 The path to this screen should include the deckId (i.e., /decks/:deckId).
 You must use the readDeck() function from src/utils/api/index.js to load the existing deck.
@@ -226,11 +236,13 @@ When the user clicks the Delete button associated with a card, a warning message
 You can use window.confirm() to create the modal dialog shown in the screenshot below.
 
 Delete card prompt
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/5822ec00-79f9-4443-8d7f-5b4c1dac690f)
 
 Edit Deck
 The Edit Deck screen allows the user to modify information on an existing deck.
 
 Edit Deck
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/86bebf14-550a-4081-8aff-00522e4396a0)
 
 The Edit Deck screen has the following features:
 
@@ -244,6 +256,7 @@ Add Card
 The Add Card screen allows the user to add a new card to an existing deck.
 
 Add Card
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/ada4ea0e-f6ad-4ef2-887d-6c467c3cb77c)
 
 The Add Card screen has the following features:
 
@@ -258,6 +271,7 @@ Edit Card
 The Edit Card screen allows the user to modify information on an existing card.
 
 Edit Card
+![image](https://github.com/majen214/Project-_Flashcards/assets/88758154/d1af284e-1dad-402d-baa0-976c8e143456)
 
 The Edit Card screen has the following features:
 
